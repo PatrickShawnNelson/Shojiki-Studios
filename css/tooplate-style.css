@@ -348,7 +348,7 @@ a:hover, a:active, a:focus {
 
     width:200px;
 
-    color:#fff;
+    color:transparent;
 
     transition: 0.3s;
 
