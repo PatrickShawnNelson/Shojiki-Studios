@@ -350,7 +350,8 @@ a:hover, a:active, a:focus {
 
     width:200px;
 
-    background-color: #ffffff;
+    background-color: transparent;
+    text-color: #ffffff;
 
     transition: 0.3s;
 
