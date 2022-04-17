@@ -331,7 +331,8 @@ a:hover, a:active, a:focus {
 
 .click:hover {
 
-    background-color: #ffffff;
+    background-color: transparent;
+    text-color: #ffffff;
     
 
 }
@@ -377,13 +378,14 @@ a:hover, a:active, a:focus {
 
 .links {
 
-    background-color: #ffffff;
+    background-color: transparent;
+    text-color: #ffffff;
 }
 
 .links:hover {
 
     background-color: transparent;
-    color: #ffffff;
+    text-color: #ffffff;
     transform: scale(1.1);
 
 }
