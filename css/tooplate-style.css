@@ -363,7 +363,7 @@ a:hover, a:active, a:focus {
 
     position: absolute;
 
-    transform: scaleY(0);
+    transform: scaleY(1.5);
 
     transform-origin: top;
 
