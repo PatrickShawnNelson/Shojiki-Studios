@@ -361,7 +361,7 @@ a:hover, a:active, a:focus {
 
     position: absolute;
   
-    right: 10px;
+    right: -20px;
   
     transform: scaleY(0);
 
