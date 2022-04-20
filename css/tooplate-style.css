@@ -360,8 +360,6 @@ a:hover, a:active, a:focus {
 .list {
 
     position: absolute;
-
-    top: -10px;
   
     transform: scaleY(0);
 
