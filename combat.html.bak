@@ -58,32 +58,12 @@ http://www.tooplate.com/view/2099-scenic
           <!-- MENU LINKS -->
           <div class="collapse navbar-collapse">
                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home" class="smoothScroll">Home</a></li>
-
-            		<li><a href="#about" class="click">Data</a></li>
-		       
-            		<div class="list">
-
-                		<li><a href="combat.html">Combat</a></li>
-		       
-		       		<li><a href="movement.html">Movement</a></li>
-            		</div>
-
-		 </div>
-
-        <script>
-
-            let click = document.querySelector('.click');
-
-            let list = document.querySelector('.list');
-
-            click.addEventListener("click",()=>{
-
-                list.classList.toggle('newlist');
-
-            });
-
-        </script>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about" class="smoothScroll">Data</a></li>
+                    <!--<li><a href="#team" class="smoothScroll">About</a></li> --> 
+                    <!-- <li><a href="#contact" class="smoothScroll">Let's talk</a></li> -->
+               </ul>
+          </div>
 
      </div>
 </div>
@@ -123,7 +103,7 @@ http://www.tooplate.com/view/2099-scenic
 
                <div class="col-md-offset-1 col-md-10 col-sm-12">
                     <div class="about-info">
-                         <h1><strong>Movement Motion Data<strong></h1>
+                         <h1><strong>Combat Motion Data<strong></h1>
                          <h2>Can't find what you want? Then make a request.</h2>
                     </div>
                </div>
@@ -143,13 +123,13 @@ http://www.tooplate.com/view/2099-scenic
                     <div class="project-item">
                          <!-- Video -->
 						<video controls="" autoplay="" loop="" muted>
-							<source src="videos/RoJ.mp4" type="video/mp4">
+							<source src="videos/3on1.mp4" type="video/mp4">
 							Your browser does not support the video tag.
 						</video>
                          
                               <div class="project-overlay">
                                    <div class="project-info">
-					<a href="http://download854.mediafire.com/cxzsa7q5nqkg/aobdny40w3jh4f6/Running+or+Jogging.zip"><h1>Jogging</h1></a>
+					<a href="https://download1587.mediafire.com/ur9wkdikqzjg/lfykx34g5xarq7a/Anime+Three+on+One+Battle.zip"><h1>Outnumbered</h1></a>
                                    </div>
                               </div>
                          </a>
@@ -160,19 +140,55 @@ http://www.tooplate.com/view/2099-scenic
                     <!-- PROJECT ITEM -->
                     <div class="project-item">
                          <video controls="" autoplay="" loop="" muted>
-							<source src="videos/NRun.mp4" type="video/mp4">
+							<source src="videos/CSPunch.mp4" type="video/mp4">
 							Your browser does not support the video tag.
 						</video>
                          
                               <div class="project-overlay">
                                    <div class="project-info">
-                                        <a href="http://download1489.mediafire.com/l852udiimcug/sz1hjhmy1vf2imj/Naruto+Run.zip"><h1>Naruto Run</h1></a>
+                                        <a href="http://download947.mediafire.com/v40v9po6g5fg/t8d86bhfq51kc67/Right+%26+Left+Hook.zip"><h1>Clean Straight</h1></a>
                                    </div>
                               </div>
                          </a>
                     </div>
                </div>
 
+               <div class="col-md-6 col-sm-6">
+                    <!-- PROJECT ITEM -->
+                    <div class="project-item">
+                          <video controls="" autoplay="" loop="" muted>
+							<source src="videos/CPunch.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+                         
+                              <div class="project-overlay">
+                                   <div class="project-info">
+                                        <a href="https://download1503.mediafire.com/15x5roxiucpg/fjqdl0manlhhktk/Cinematic+Punch.zip"><h1>Dramatic Punch</h1></a>
+                                   </div>
+                              </div>
+                         </a>
+                    </div>
+               </div>
+
+               <div class="col-md-6 col-sm-6">
+                    <!-- PROJECT ITEM -->
+                   <div class="project-item">
+                          <video controls="" autoplay="" loop="" muted>
+							<source src="videos/PKick.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+                         
+                              <div class="project-overlay">
+                                   <div class="project-info">
+					<a href="http://download936.mediafire.com/zmavoevej5xg/v146indgtudj67t/Powerful+Kick.zip"><h1>Strong Kick</h1></a>
+                                   </div>
+                              <!-- </div>
+                         </a>
+                    </div>
+               </div>            
+
+          </div>
+     </div> -->
 <!-- </section> -->
 
 
@@ -354,11 +370,11 @@ http://www.tooplate.com/view/2099-scenic
                     
                </div>
 
-               <!-- <div class="clearfix"></div>
+               <div class="clearfix"></div>
 
                <div class="col-md-12 col-sm-12">
                     <div class="copyright-text">
-                         <p>Copyright © 2021 Shojiki Studios -->
+                        <!-- <p>Copyright © 2021 Shojiki Studios -->
                          
                          <!--
 				| Design: <a rel="nofollow" href="https://www.tooplate.com">Tooplate</a></p> 
@@ -368,7 +384,7 @@ http://www.tooplate.com/view/2099-scenic
                
           </div>
      </div>
-</footer>
+<!-- </footer> -->
 
 <!-- SCRIPTS -->
 <script src="js/jquery.js"></script>

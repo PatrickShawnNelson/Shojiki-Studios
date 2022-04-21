@@ -2,15 +2,7 @@
 <html lang="en">
 <head>
 
-<title>Scenic HTML Template</title>
-
-<!--
-
-Template 2099 Scenic
-
-http://www.tooplate.com/view/2099-scenic
-
--->
+<title>Shojiki Studios</title>
 
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -59,9 +51,34 @@ http://www.tooplate.com/view/2099-scenic
           <div class="collapse navbar-collapse">
                <ul class="nav navbar-nav navbar-right">
                     <li><a href="#home" class="smoothScroll">Home</a></li>
-                    <li><a href="#about" class="smoothScroll">Data</a></li>
-                    <!--<li><a href="#team" class="smoothScroll">About</a></li> --> 
-                    <li><a href="#contact" class="smoothScroll">Let's talk</a></li>
+
+            		<li><a href="#about" class="click">Data</a></li>
+		       
+            		<div class="list">
+
+                		<li><a href="combat.html">Combat</a></li>
+		       
+		       		<li><a href="movement.html">Movement</a></li>
+            		</div>
+
+        </div>
+
+        <script>
+
+            let click = document.querySelector('.click');
+
+            let list = document.querySelector('.list');
+
+            click.addEventListener("click",()=>{
+
+                list.classList.toggle('newlist');
+
+            });
+
+        </script>
+                    <!--<li><a href="#about" class="smoothScroll">Data</a></li> -->
+                    <!--<li><a href="#team" class="smoothScroll">About</a></li> -->
+                    <!-- <li><a href="#contact" class="smoothScroll">Let's talk</a></li> -->
                </ul>
           </div>
 
@@ -80,7 +97,7 @@ http://www.tooplate.com/view/2099-scenic
                          <h1>MMD Motion Data Center</h1>
                          <p>Feel free to submit a request for motion data here.</p>
                          <ul class="section-btn">
-                              <a href="#about" class="smoothScroll"><span data-hover="Request">Motion Data</span></a>
+                              <a href="#about" class="smoothScroll"><span data-hover="Unavailable">Motion Data</span></a>
                          </ul>
                     </div>
                </div>
@@ -105,9 +122,6 @@ http://www.tooplate.com/view/2099-scenic
                     <div class="about-info">
                          <h1><strong>Motion Data<strong></h1>
                          <h2>Can't find what you want? Then make a request.</h2>
-						 <ul class="section-btn">
-                              <a href="#about" class="smoothScroll"><span data-hover="Request">Motion Data</span></a>
-                         </ul>
                     </div>
                </div>
 
@@ -132,7 +146,7 @@ http://www.tooplate.com/view/2099-scenic
                          
                               <div class="project-overlay">
                                    <div class="project-info">
-                                        <h1>Combat</h1>
+                                        <a href="combat.html"><h1>Combat</h1></a>
                                    </div>
                               </div>
                          </a>
@@ -149,7 +163,7 @@ http://www.tooplate.com/view/2099-scenic
                          
                               <div class="project-overlay">
                                    <div class="project-info">
-                                        <h1>Movement</h1>
+                                        <a href="movement.html"><h1>Movement</h1></a>
                                    </div>
                               </div>
                          </a>
@@ -167,6 +181,7 @@ http://www.tooplate.com/view/2099-scenic
                               <div class="project-overlay">
                                    <div class="project-info">
                                         <h1>Dancing</h1>
+					<h2>(Currently Unavailable)<h2>
                                    </div>
                               </div>
                          </a>
@@ -184,6 +199,7 @@ http://www.tooplate.com/view/2099-scenic
                               <div class="project-overlay">
                                    <div class="project-info">
                                         <h1>Miscellaneous</h1>
+					<h2>(Currently Unavailable)<h2>
                                    </div>
                               </div>
                          </a>
@@ -192,7 +208,7 @@ http://www.tooplate.com/view/2099-scenic
 
           </div>
      </div>
-</section>
+<!-- </section> -->
 
 
 <!-- TEAM -->
@@ -275,8 +291,8 @@ http://www.tooplate.com/view/2099-scenic
                               <div class="team-overlay">
                                    <ul class="social-icon">
                                         <li><a href="#" class="fa fa-twitter"></a></li>
-                                        <li><a href="#" class="fa fa-linkedin"></a></li>
-                                   </ul>
+                                        <li><a href="#" class="fa fa-linkedin"></a></li> -->
+                                 <!--  </ul>
                               </div>
                          </div>
                          <p>Cherry Lynn</p>
@@ -285,32 +301,34 @@ http://www.tooplate.com/view/2099-scenic
                </div>
 
           </div>
-     </div>
-</section>
+     </div> -->
+<!--</section> -->
 
 
 <!-- CONTACT -->
-<section id="contact" class="parallax-section">
+<!-- <section id="contact" class="parallax-section">
      <div class="container">
-          <div class="row">
+          <div class="row"> -->
 
-               <div class="col-md-offset-3 col-md-6 col-sm-12">
+              <!-- <div class="col-md-offset-3 col-md-6 col-sm-12">
                     <div class="section-title">
                          <h1>Talk to us!</h1>
                     </div>
                </div>
+		-->
 
-               <div class="clearfix"></div>
+              <!--  <div class="clearfix"></div>
 
-               <div class="col-md-offset-2 col-md-8 col-sm-12">
+               <div class="col-md-offset-2 col-md-8 col-sm-12"> -->
                     <!-- CONTACT FORM HERE -->
-                    <form id="contact-form" action="#" method="get" role="form">
+                  <!--  <form id="contact-form" action="#" method="get" role="form"> -->
 
                          <!-- IF MAIL SENT SUCCESSFULLY -->
-                         <h6 class="text-success">Your message has been sent successfully. </h6>
+                        <!-- <h6 class="text-success">Your message has been sent successfully. </h6> -->
                          
                          <!-- IF MAIL SENDING UNSUCCESSFULL -->
-                         <h6 class="text-danger">E-mail must be valid and message must be longer than 1 character.</h6>
+                        <!-- 
+			 <h6 class="text-danger">E-mail must be valid and message must be longer than 1 character.</h6>
 
                          <div class="col-md-6 col-sm-6">
                               <input type="text" class="form-control" id="cf-name" name="cf-name" placeholder="Name">
@@ -331,19 +349,19 @@ http://www.tooplate.com/view/2099-scenic
                               </div>
                          </div>
                     </form>
-               </div>
+               </div> -->
 
-          </div>
+      <!--    </div>
      </div>
 </section>
-
+-->
 <!-- FOOTER -->
-<footer>
+<!-- <footer>
      <div class="container">
           <div class="row">
 
                <div class="col-md-5 col-sm-6">
-                    <h2>Digital Studio</h2>
+                   <!-- <h2>Digital Studio</h2>
                     <p>321 Donec et justo id risus, Malesuada pharetra,<br> Tristique vestibulum,<br> Lorem ipsum dolor</p>
                     
                     
@@ -361,12 +379,12 @@ http://www.tooplate.com/view/2099-scenic
                <div class="col-md-3 col-sm-12">
                		
                     <h2>About Us</h2>
-                    <p>Sed vestibulum posuere ante, eget blandit metus. Morbi sodales feugiat erat, et placerat sapien suscipit ut.</p>
+                    <p>Sed vestibulum posuere ante, eget blandit metus. Morbi sodales feugiat erat, et placerat sapien suscipit ut.</p> 
                     <ul class="social-icon">
                          <li><a href="#" class="fa fa-twitter"></a></li>
                          <li><a href="#" class="fa fa-facebook"></a></li>
                          <li><a href="#" class="fa fa-instagram"></a></li>
-                         <li><a href="#" class="fa fa-linkedin"></a></li>
+                         <li><a href="#" class="fa fa-linkedin"></a></li> -->
                     </ul>
                     
                </div>
@@ -375,15 +393,17 @@ http://www.tooplate.com/view/2099-scenic
 
                <div class="col-md-12 col-sm-12">
                     <div class="copyright-text">
-                         <p>Copyright © 2018 Company Name 
+                        <p>Copyright © 2022 Shojiki Studios</p>
                          
-                         | Design: <a rel="nofollow" href="https://www.tooplate.com">Tooplate</a></p>
+                         <!--
+				| Design: <a rel="nofollow" href="https://www.tooplate.com">Tooplate</a></p> 
+				-->
                     </div>
                </div>
                
           </div>
      </div>
-</footer>
+</footer> -->
 
 <!-- SCRIPTS -->
 <script src="js/jquery.js"></script>
